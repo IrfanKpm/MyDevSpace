@@ -1,0 +1,78 @@
+/* -- > sown in css file -*/
+* {
+  margin: 0;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+p {
+  color: red;
+}
+
+.container h4 {
+  font-family: monospace;
+  background-color: aqua;
+  font-family: 600;
+  color: brown;
+}
+
+button, .super-btn {
+  margin: 3px;
+  margin-top: 6px;
+  padding: 5px;
+  border: none;
+}
+
+.super-btn {
+  color: rgb(0, 0, 0);
+  background-color: rgb(173, 173, 16);
+}
+
+.main h3 {
+  color: rgb(107, 107, 39);
+}
+
+.main h4 {
+  color: rgb(107, 107, 39);
+}
+
+.main h5 {
+  color: rgb(107, 107, 39);
+}
+
+.main h6 {
+  color: rgb(107, 107, 39);
+}
+
+.home {
+  color: green;
+  padding: 7px;
+}
+
+.about {
+  color: green;
+  padding: 7px;
+}
+
+.services {
+  color: green;
+  padding: 7px;
+}
+
+.contact {
+  color: green;
+  padding: 7px;
+}
+
+nav {
+  background-color: oldlace;
+}
+nav ul {
+  list-style: none;
+}
+nav ul li {
+  display: inline-block;
+}
+nav ul li:hover {
+  background-color: rgb(109, 222, 184);
+}/*# sourceMappingURL=style.css.map */

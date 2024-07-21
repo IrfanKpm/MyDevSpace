@@ -1,0 +1,66 @@
+@import "./var.scss";
+
+/* -- > sown in css file -*/
+// only for scss 
+
+*{
+    margin: 0;
+    padding: $padding-normal;
+    box-sizing: border-box;
+}
+p{
+    color: $mainColor;
+}
+
+
+@mixin h4Style($color:$default-color){
+    font-family: monospace;
+    background-color: aqua;
+    font-family: 600;
+    color: $color
+}
+
+.container h4{
+    @include h4Style(brown);
+}
+
+button{
+    margin: 3px;
+    margin-top: 6px;
+    padding: 5px;
+    border: none
+}
+
+.super-btn{
+    @extend button;
+    color: rgb(0, 0, 0);
+    background-color: rgb(173, 173, 16);
+}
+
+@for $i from 3 through 6{
+    .main h#{$i}{
+        color: rgb(107, 107, 39) ;
+    }
+}
+
+$nav-items : home about services contact;
+
+@each $item in $nav-items{
+    .#{$item}{
+        color: green;
+        padding: 7px;
+    }
+}
+
+nav{
+    background-color: oldlace;
+    ul{
+        list-style: none;
+        li{
+            display: inline-block;
+            &:hover{
+                background-color: rgb(109, 222, 184);
+            }
+        }
+    }
+}
