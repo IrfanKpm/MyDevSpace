@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: aqua;
+}
+.div1{
+    width: 150px;
+    height: 150px;
+    background-color: wheat;
+    margin: 15px;
+    animation: expand 0.5s linear 0.5s 10;
+}
+.div1:hover{
+    animation-play-state: paused;
+}
+@keyframes expand{
+    0%{
+        width: 150px;
+    }
+    25%{
+        width: 300px;
+    }
+    50%{
+        width: 450px;
+    }
+    75%{
+        width: 300px;
+    }
+    100%{
+        width: 150px;
+    }
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inline-Vs-Block</title>
+    <style>
+        *{
+            margin: 5px;
+            padding: 5px;
+            box-sizing: border-box;
+            background-color: rgb(200, 155, 88);
+            color: white;
+        }
+        .div1,span,h3,p{
+            background-color: blueviolet;
+            margin: 10px;
+        }
+        .div2,.div3{
+            width: 150px;
+            height: 150px; 
+            display: inline-block; 
+        }
+        .div2{
+            background-color: aquamarine;
+        }
+        .div3{
+            background-color: rgb(15, 164, 28);
+        }
+        h2{
+            display: inline;
+            background-color: rgb(54, 91, 203);
+        }
+    </style>
+</head>
+<body>
+    <div class="div1">div text</div>
+    <span>span text</span>
+    <h3>h3 text</h3>
+    <p>Lorem p-tag</p>
+    <div class="div2"></div>
+    <div class="div3"></div>
+    <h2>h2 tag inline</h2>
+
+</body>
+</html>

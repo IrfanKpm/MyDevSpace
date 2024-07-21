@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 5px;
+            padding: 5px;
+            box-sizing: border-box;
+            background-color: rgb(200, 155, 88);
+        }
+        .div1 h3:first-child{
+            color: rgb(20, 8, 187);
+            background-color: gray;
+        }
+        .div1 h3:nth-child(3){
+            color: rgb(48, 227, 117);
+            background-color: rgba(128, 128, 128, 0.809);
+        }
+        .div1 h4:nth-of-type(1)::first-letter{
+            color: red;
+            font-size: 25px;
+        }
+        h3::selection{
+            background-color: yellow;
+        }
+        p{
+            font-size: 20px;
+            font-weight: 700;
+        }
+        p:hover::after{
+            content: "😍";
+        }
+    </style>
+</head>
+<body>
+    <div class="div1">
+        <h3>Welcome to DebugMedia</h3>
+        <h3>Welcome to DebugMedia</h3>
+        <h3>Welcome to DebugMedia</h3>
+        <h3>Welcome to DebugMedia</h3>
+        <h4>Welcome</h4>
+        <h4>Welcome</h4>
+        <h4>Welcome</h4>
+        <p>hover here</p>
+    </div>
+</body>
+</html>

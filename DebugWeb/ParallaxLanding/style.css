@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    position: absolute;
+    top: 20px;
+    text-align: right;
+    width: 100%;
+}
+header a{
+    color: rgb(255,255,255,0.5);
+    margin-right: 100px;
+    text-decoration: none;
+    font-size: 16px;
+    transition: 0.3s ease-in-out;
+}
+header a:hover{
+    color: white;
+}
+main{
+    background-image: url("./images/bgimage.jpg");
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+}
+main h1{
+    font-size: 60px;
+    color: rgb(0,0,0,0.5);
+}

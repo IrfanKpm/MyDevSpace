@@ -1,0 +1,10 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ background-color: wheat;
+}
+#ech{
+    margin-left: 80px;
+    margin-top: 2px;
+}
